@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://github.com/jawaharlau/pmadocumentation/textualwork/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Textual Work - PMA prototype documentation</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Textual Work", url: "#_top", children: [
+          ]},
+          {title: "Textual Work Names and Classifications", url: "#textual-work-names-and-classifications", children: [
+              {title: "- Textual Work Names and Classifications Ontology Graph", url: "#-textual-work-names-and-classifications-ontology-graph" },
+              {title: "- Textual Work Names and Classifications RDF", url: "#-textual-work-names-and-classifications-rdf" },
+              {title: "- Textual Work Names and Classifications JSON-LD", url: "#-textual-work-names-and-classifications-json-ld" },
+          ]},
+          {title: "Textual Work Existence", url: "#textual-work-existence", children: [
+              {title: "- Textual Work Existence Ontology Graph", url: "#-textual-work-existence-ontology-graph" },
+              {title: "- Textual Work Existence RDF", url: "#-textual-work-existence-rdf" },
+              {title: "- Textual Work Existence JSON-LD", url: "#-textual-work-existence-json-ld" },
+          ]},
+          {title: "Textual Work Substance", url: "#textual-work-substance", children: [
+              {title: "- Textual Work Substance Ontology Graph", url: "#-textual-work-substance-ontology-graph" },
+              {title: "- Textual Work Substance RDF", url: "#-textual-work-substance-rdf" },
+              {title: "- Textual Work Substance JSON-LD", url: "#-textual-work-substance-json-ld" },
+          ]},
+          {title: "Textual Work Actor Relations", url: "#textual-work-actor-relations", children: [
+              {title: "- Textual Work Actor Relations Ontology Graph", url: "#-textual-work-actor-relations-ontology-graph" },
+              {title: "- Textual Work Actor Relations RDF", url: "#-textual-work-actor-relations-rdf" },
+              {title: "- Textual Work Actor Relations JSON-LD", url: "#-textual-work-actor-relations-json-ld" },
+          ]},
+          {title: "Textual Work Aboutness", url: "#textual-work-aboutness", children: [
+              {title: "- Textual Work Aboutness Ontology Graph", url: "#-textual-work-aboutness-ontology-graph" },
+              {title: "- Textual Work Aboutness RDF", url: "#-textual-work-aboutness-rdf" },
+              {title: "- Textual Work Aboutness JSON-LD", url: "#-textual-work-aboutness-json-ld" },
+          ]},
+          {title: "Textual Work Parthood", url: "#textual-work-parthood", children: [
+              {title: "- Textual Work Parthood Ontology Graph", url: "#-textual-work-parthood-ontology-graph" },
+              {title: "- Textual Work Parthood RDF", url: "#-textual-work-parthood-rdf" },
+              {title: "- Textual Work Parthood JSON-LD", url: "#-textual-work-parthood-json-ld" },
+          ]},
+          {title: "Textual Work Description", url: "#textual-work-description", children: [
+              {title: "- Textual Work Description Ontology Graph", url: "#-textual-work-description-ontology-graph" },
+              {title: "- Textual Work Description RDF", url: "#-textual-work-description-rdf" },
+              {title: "- Textual Work Description JSON-LD", url: "#-textual-work-description-json-ld" },
+          ]},
+          {title: "Textual Work Documentation", url: "#textual-work-documentation", children: [
+              {title: "- Textual Work Documentation Ontology Graph", url: "#-textual-work-documentation-ontology-graph" },
+              {title: "- Textual Work Documentation RDF", url: "#-textual-work-documentation-rdf" },
+              {title: "- Textual Work Documentation JSON-LD", url: "#-textual-work-documentation-json-ld" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../archivalresource/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../archivalresource/" class="btn btn-xs btn-link">
+        Archival Resource
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../artwork/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../artwork/" class="btn btn-xs btn-link">
+        Artwork
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h2 id="textual-work"><strong>Textual Work</strong></h2>
+<p><strong>Author:</strong> Denitsa Nenova, George Bruseker</p>
+<p><strong>Version:</strong> 1.0</p>
+<p>The <em>Textual Work</em> model is intended to enable the representation and reference of data relevant to bibliographic sources that have been used in the course of researching and documenting, as well as the documentation of artwork conservation processes in what is known as conservation reports. The textual reference data model offers a list of standard fields often used in the general description of a <em>Textual Work</em>. It also provides a number of additional conservation specific fields expressing knowledge from the point of view of documented conservation activities. The scope of this model is the <em>Textual Work</em> in general as information object and pointer to real world instances of an actual publication or the documentation of a conservation report.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+<th>URI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Root Ontology Node</td>
+<td>E33 Linguistic Object</td>
+<td>https://cidoc-crm.org/Entity/E33-Linguistic-Object/version-7.1.1</td>
+</tr>
+<tr>
+<td>Type Differentiator</td>
+<td>texts (documents)</td>
+<td>http://vocab.getty.edu/aat/300263751</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Model Sections Description</strong></p>
+<table>
+<thead>
+<tr>
+<th>Information Category</th>
+<th>Information Collections</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Names and Classifications</td>
+<td>Names/Identifiers/Type</td>
+<td>The researcher can document various names and identifiers regarding the <em>Textual Work</em> as well as the generic type of the work.</td>
+</tr>
+<tr>
+<td>Existence</td>
+<td>Publication/Contirbution</td>
+<td>The researcher can document the events related to the publication of an <em>Textual Work</em> and various contributors helping bring the work to existence.</td>
+</tr>
+<tr>
+<td>Substance</td>
+<td>Language/Content/Definition</td>
+<td>The researcher can document various content information about the <em>Textual Work</em> such as content or the language of the content.</td>
+</tr>
+<tr>
+<td>Actor Relations</td>
+<td>Acquisition Actors</td>
+<td>The researcher can document variuos relationships between the <em>Textual Work</em> and an actor such as donors.</td>
+</tr>
+<tr>
+<td>Aboutness</td>
+<td>Subject</td>
+<td>The researcher can document a variety of subject information embedded in the content of the <em>Textual Work</em> such as geographical or topical references.</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Description</td>
+<td>The researcher can document various free-text descriptions about the <em>Textual Work</em> such as physical description of the carrier of the textual content.</td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td>Digital Reference</td>
+<td>The researcher can document digital objects such as images and weblinks relative to the <em>Textual Work</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="textual-work-names-and-classifications">Textual Work <strong>Names and Classifications</strong></h2>
+<p>The attribution of names and types to a <em>Textual Work</em>, as with other entities, is a basic human activity. A chief factor in disambiguating objects lies in understanding the various names and identifiers that have been given to them at different moments in their individual histories. Likewise, additional classifiers of the <em>Textual Work</em> give important distinguishing characteristics.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PMAF.77</td>
+<td>Textual Work Type</td>
+<td>This field is used to document a formal top level concept describing the documented <em>Textual Work</em>, such as library resource or conservation report.</td>
+<td>Concept</td>
+<td>-&gt;p2-&gt;E55[77_1]-&gt;p2-&gt;E55-&gt;p2-&gt;E55[77_2]</td>
+</tr>
+<tr>
+<td>LAF.10</td>
+<td>Identifier</td>
+<td>This field is used to record an identifier attributed to the documented <em>Textual Work</em>.</td>
+<td>String</td>
+<td>-&gt;p1-&gt;E42[8_1]-&gt;p190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>LAF.9</td>
+<td>Identifier Type</td>
+<td>This field is used to record the type of the identifier attributed to the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p1-&gt;E42[8_1]-&gt;p2-&gt;E55[9_1]</td>
+</tr>
+<tr>
+<td>LAF.45</td>
+<td>Identifier Source</td>
+<td>This field is used to link to a source text in which the identifier denoting the documented <em>Textual Work</em> is used.</td>
+<td>Reference Model [Textual Work]</td>
+<td>-&gt;p1-&gt;E42[8_1]-&gt;p67i-&gt;E33[45_1]</td>
+</tr>
+<tr>
+<td>LAF.6</td>
+<td>Title</td>
+<td>This field is used to record the string value of the name attributed to the documented <em>Textual Work</em>.</td>
+<td>String</td>
+<td>-&gt;p1-&gt;E33_E41[4_1]-&gt;p190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>LAF.5</td>
+<td>Title Type</td>
+<td>This field is used to record the type of the name attributed to the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p1-&gt;E33_41[4_1]-&gt;p2-&gt;E55[5_1]</td>
+</tr>
+<tr>
+<td>PMAF.26</td>
+<td>Title Note</td>
+<td>This field is used to record a general statement about a name of the documented <em>Textual Work</em>.</td>
+<td>Collection  [Statement]</td>
+<td>-&gt;P1-&gt;E33_E41[A26_1]-&gt;P67i-&gt;E33[A26_2]</td>
+</tr>
+<tr>
+<td>LAF.35</td>
+<td>Subtitle</td>
+<td>This field is used to record the string value of the name part attributed to the documented <em>Textual Work</em>.</td>
+<td>String</td>
+<td>-&gt;p1-&gt;E33_E41[4_1]-&gt;p106-&gt;E33_E41[35_1]-&gt;p190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>LAF.34</td>
+<td>Subtitle Type</td>
+<td>This field is used to record the type of the name part attributed to the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p1-&gt;E33_E41[4_1]-&gt;p106-&gt;E33_41[33_1]-&gt;p2-&gt;E55[34_1]</td>
+</tr>
+<tr>
+<td>LAF.11</td>
+<td>Index Term--Genre/Form</td>
+<td>This field is used to record the formal type of the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p2-&gt;E55[11_1]</td>
+</tr>
+<tr>
+<td>PMAF.59</td>
+<td>Form/Genre: Term Source</td>
+<td>This field is used to document location of group mentioned in the content of the documented <em>Textual Work</em>.</td>
+<td>URL</td>
+<td>-&gt;p2-&gt;E55[A11_1]-&gt;p71i-E32[A59_2]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-names-and-classifications-ontology-graph">- Textual Work Names and Classifications <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/nc_text.png" /></p>
+<h3 id="-textual-work-names-and-classifications-rdf">- Textual Work Names and Classifications <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P1_is_identified_by &lt;https://linked.art/example/conceptual_object/4_1&gt;,
+        &lt;https://linked.art/example/conceptual_object/8_1&gt;,
+        &lt;https://pma.us/appellation/A26_1&gt; ;
+    crm:P2_has_type &lt;http://pma.us/conceptual_object/A77_1&gt;,
+        &lt;http://pma.us/type/A11_1&gt;,
+        &lt;https://linked.art/example/type/11_1&gt; .
+
+&lt;http://pma.us/conceptual_object/A77_1&gt; a crm:E55_Type ;
+    crm:P2_has_type &lt;http://vocab.getty.edu/page/aat/300137955&gt; .
+
+&lt;http://pma.us/linguistic_object/A59_2&gt; a crm:E32_Authority_Document .
+
+&lt;http://pma.us/type/A11_1&gt; a crm:E55_Type ;
+    crm:P71i_is_listed_in &lt;http://pma.us/linguistic_object/A59_2&gt; .
+
+&lt;http://vocab.getty.edu/page/aat/300137955&gt; a crm:E55_Type ;
+    rdfs:label &quot;Resource Type&quot; .
+
+&lt;http://vocab.getty.edu/page/aat/300404670&gt; a crm:E55_Type ;
+    rdfs:label &quot;preferred terms&quot; .
+
+&lt;https://linked.art/example/conceptual_object/4_1&gt; a crm:E33_E41_Linguistic_Appellation ;
+    crm:P190_has_symbolic_content &quot;Name_string_value&quot; ;
+    crm:P2_has_type &lt;http://vocab.getty.edu/page/aat/300404670&gt; ;
+    crm:p106_is_composed_of &lt;https://linked.art/example/name/33_1&gt; .
+
+&lt;https://linked.art/example/conceptual_object/8_1&gt; a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content &quot;Identifier_value_content&quot; ;
+    crm:P2_has_type &lt;https://linked.art/example/identifier/9_1&gt; ;
+    crm:P67i_is_referred_to_by &lt;https://linked.art/example/textual_object/45_1&gt; .
+
+&lt;https://linked.art/example/identifier/9_1&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/name/33_1&gt; a crm:E33_E41_Linguistic_Appellation ;
+    crm:P190_has_symbolic_content &quot;content goes here&quot; ;
+    crm:p2_has_type &lt;https://linked.art/example/type/34_1&gt; .
+
+&lt;https://linked.art/example/textual_object/45_1&gt; a crm:E33_Linguistic_Object .
+
+&lt;https://linked.art/example/type/11_1&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/type/34_1&gt; a crm:E55_Type .
+
+&lt;https://pma.us/appellation/A26_1&gt; a crm:E33_E41_Linguistic_Appellation ;
+    crm:P67i_is_referred_to_by &lt;https://pma.us/conceptual_object/A26_2&gt; .
+
+&lt;https://pma.us/conceptual_object/A26_2&gt; a crm:E33_Linguistic_Object .
+
+
+
+
+</code></pre>
+<h3 id="-textual-work-names-and-classifications-json-ld">- Textual Work Names and Classifications <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;id&quot;: &quot;https://pma.us/conceptual_object/A26_2&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;content&quot;: &quot;content goes here&quot;,
+      &quot;crm:p2_has_type&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/type/34_1&quot;
+      },
+      &quot;id&quot;: &quot;https://linked.art/example/name/33_1&quot;,
+      &quot;type&quot;: &quot;Name&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://pma.us/type/A11_1&quot;,
+      &quot;listed_in&quot;: [
+        &quot;http://pma.us/linguistic_object/A59_2&quot;
+      ],
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://pma.us/linguistic_object/A59_2&quot;,
+      &quot;type&quot;: &quot;AuthorityDocument&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;https://linked.art/example/type/11_1&quot;,
+        &quot;http://pma.us/type/A11_1&quot;,
+        &quot;http://pma.us/conceptual_object/A77_1&quot;
+      ],
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;identified_by&quot;: [
+        &quot;https://linked.art/example/conceptual_object/4_1&quot;,
+        &quot;https://pma.us/appellation/A26_1&quot;,
+        &quot;https://linked.art/example/conceptual_object/8_1&quot;
+      ],
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/type/11_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/type/34_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;_label&quot;: &quot;preferred terms&quot;,
+      &quot;id&quot;: &quot;http://vocab.getty.edu/page/aat/300404670&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://vocab.getty.edu/page/aat/300404670&quot;
+      ],
+      &quot;content&quot;: &quot;Name_string_value&quot;,
+      &quot;crm:p106_is_composed_of&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/name/33_1&quot;
+      },
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/4_1&quot;,
+      &quot;type&quot;: &quot;Name&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/appellation/A26_1&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://pma.us/conceptual_object/A26_2&quot;
+      ],
+      &quot;type&quot;: &quot;Name&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://vocab.getty.edu/page/aat/300137955&quot;
+      ],
+      &quot;id&quot;: &quot;http://pma.us/conceptual_object/A77_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/textual_object/45_1&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/identifier/9_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;_label&quot;: &quot;Resource Type&quot;,
+      &quot;id&quot;: &quot;http://vocab.getty.edu/page/aat/300137955&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;https://linked.art/example/identifier/9_1&quot;
+      ],
+      &quot;content&quot;: &quot;Identifier_value_content&quot;,
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/8_1&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://linked.art/example/textual_object/45_1&quot;
+      ],
+      &quot;type&quot;: &quot;Identifier&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-existence">Textual Work <strong>Existence</strong></h2>
+<p>Of essential import in identifying and tracking <em>Textual Work</em> is information pertaining to their existence in time, particularly information regarding the creation and publication of the resource.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LAF.412</td>
+<td>Main Entry</td>
+<td>This field is used to link the documented <em>Textual Work</em> creation activity a broader creation activity of which it was a part.</td>
+<td>Collection  [Creation]</td>
+<td>-&gt;P94i-&gt;E65[71_1]-&gt;P9-&gt;E65[412_1]</td>
+</tr>
+<tr>
+<td>LAF.400</td>
+<td>Publication Year</td>
+<td>This field is used to link the documented event of publication to an instance of time-span recording the temporal extent of the activity.</td>
+<td>Collection [Timespan]</td>
+<td>-&gt;P16i-&gt;E7[396_1]-&gt;P4-&gt;E52[400_1]</td>
+</tr>
+<tr>
+<td>LAF.397</td>
+<td>Publication Type</td>
+<td>This field is used to record the formal type of the documented event of publication.</td>
+<td>Concept</td>
+<td>-&gt;P16i-&gt;E7[396_1]-&gt;P2-&gt;E55[397_1]</td>
+</tr>
+<tr>
+<td>LAF.403</td>
+<td>Publication Statement</td>
+<td>This field is used to link the documented event of publication to a statement that describes it.</td>
+<td>Collection [Statement]</td>
+<td>-&gt;P16i-&gt;E7[396_1]-&gt;P67i-&gt;E33[403_1]</td>
+</tr>
+<tr>
+<td>LAF.405</td>
+<td>Publication House</td>
+<td>This field is used to link the documented event of publication to an actor responsible for carrying it out.</td>
+<td>Reference Model [Person/Group]</td>
+<td>-&gt;P16i-&gt;E7[396_1]-&gt;P14-&gt;E39[405_1]</td>
+</tr>
+<tr>
+<td>LAF.407</td>
+<td>Publisher</td>
+<td>This field is used to link the documented event of publication to a location at which it was carried out.</td>
+<td>Reference Model [Place]</td>
+<td>-&gt;P16i-&gt;E7[396_1]-&gt;P7-&gt;E53[407_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-existence-ontology-graph">- Textual Work Existence <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/ex_text.png" /></p>
+<h3 id="-textual-work-existence-rdf">- Textual Work Existence <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P16i_was_used_for &lt;https://linked.art/example/event/396_1&gt; ;
+    crm:P94i_was_created_by &lt;https://linked.art/example/event/71_1&gt; .
+
+&lt;https://linked.art/example/actor/405_1&gt; a crm:E39_Actor .
+
+&lt;https://linked.art/example/conceptual_object/403_1&gt; a crm:E33_Linguistic_Object .
+
+&lt;https://linked.art/example/event/396_1&gt; a crm:E7_Activity ;
+    crm:P14_carried_out_by &lt;https://linked.art/example/actor/405_1&gt; ;
+    crm:P2_has_type &lt;https://linked.art/example/type/397_1&gt; ;
+    crm:P4_has_time-span &lt;https://linked.art/example/time_span/400_1&gt; ;
+    crm:P67i_is_referred_to_by &lt;https://linked.art/example/conceptual_object/403_1&gt; ;
+    crm:P7_took_place_at &lt;https://linked.art/example/place/407_1&gt; .
+
+&lt;https://linked.art/example/event/412_1&gt; a crm:E65_Creation .
+
+&lt;https://linked.art/example/event/71_1&gt; a crm:E65_Creation ;
+    crm:P9_consists_of &lt;https://linked.art/example/event/412_1&gt; .
+
+&lt;https://linked.art/example/place/407_1&gt; a crm:E53_Place .
+
+&lt;https://linked.art/example/time_span/400_1&gt; a crm:E52_Time-Span .
+
+&lt;https://linked.art/example/type/397_1&gt; a crm:E55_Type .
+
+
+
+</code></pre>
+<h3 id="-textual-work-existence-json-ld">- Textual Work Existence <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/time_span/400_1&quot;,
+      &quot;type&quot;: &quot;TimeSpan&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/event/412_1&quot;,
+      &quot;type&quot;: &quot;Creation&quot;
+    },
+    {
+      &quot;created_by&quot;: &quot;https://linked.art/example/event/71_1&quot;,
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;,
+      &quot;used_for&quot;: [
+        &quot;https://linked.art/example/event/396_1&quot;
+      ]
+    },
+    {
+      &quot;crm:P9_consists_of&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/event/412_1&quot;
+      },
+      &quot;id&quot;: &quot;https://linked.art/example/event/71_1&quot;,
+      &quot;type&quot;: &quot;Creation&quot;
+    },
+    {
+      &quot;carried_out_by&quot;: [
+        &quot;https://linked.art/example/actor/405_1&quot;
+      ],
+      &quot;classified_as&quot;: [
+        &quot;https://linked.art/example/type/397_1&quot;
+      ],
+      &quot;id&quot;: &quot;https://linked.art/example/event/396_1&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://linked.art/example/conceptual_object/403_1&quot;
+      ],
+      &quot;timespan&quot;: &quot;https://linked.art/example/time_span/400_1&quot;,
+      &quot;took_place_at&quot;: [
+        &quot;https://linked.art/example/place/407_1&quot;
+      ],
+      &quot;type&quot;: &quot;Activity&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/actor/405_1&quot;,
+      &quot;type&quot;: &quot;Actor&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/place/407_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/type/397_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/403_1&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-substance">Textual Work <strong>Substance</strong></h2>
+<p>The analysis and understanding of a <em>Textual Work</em> depends also on our knowledge of its content characteristics. The category of substance brings together descriptors which are relevant to this form of analysis. Particularly, it groups information having to do with the composition or the languange of the content of the <em>Textual Work</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LAF.389</td>
+<td>Language</td>
+<td>This field is used to link the documented linguistic object to the language in which it is expressed.</td>
+<td>Concept</td>
+<td>-&gt;P72-&gt;E56[389_1]</td>
+</tr>
+<tr>
+<td>PMAF.16</td>
+<td>Language Type</td>
+<td>This field is used to record the language type of the content of the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;P72-&gt;E56[A16_1]-&gt;P2-&gt;E55[A16_2]</td>
+</tr>
+<tr>
+<td>LAF.393</td>
+<td>Report Content</td>
+<td>This field is used to link the documented linguistic object to the actual string content of that linguistic object.</td>
+<td>String</td>
+<td>-&gt;P190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>PMAF.75</td>
+<td>Conservation Report Definition</td>
+<td>This field is used to link the documented linguistic object to the parts that compose it.</td>
+<td>String</td>
+<td>-&gt;p106-&gt;E33[75_1]-&gt;p190-&gt;xsd:string</td>
+</tr>
+<tr>
+<td>PMAF.76</td>
+<td>Conservation Report Definition Type</td>
+<td>This field is used to document the type of linguistic object that forms a part of the documented linguistic object.</td>
+<td>Concept</td>
+<td>-&gt;p106-&gt;E33[75_1]-&gt;p2-&gt;E55[76_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-substance-ontology-graph">- Textual Work Substance <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/sub_text.png" /></p>
+<h3 id="-textual-work-substance-rdf">- Textual Work Substance <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P106_is_composed_of &lt;http://pma.us/conceptual_object/A75_1&gt; ;
+    crm:P190_has_symbolic_content &quot;linguistic_object_content&quot; ;
+    crm:P72_has_language &lt;https://linked.art/example/type/389_1&gt;,
+        &lt;https://pma.us/conceptual_object/A16_1&gt; .
+
+&lt;http://pma.us/conceptual_object/A75_1&gt; a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content &quot;partial_content&quot; ;
+    crm:P2_has_type &lt;http://pma.us/type/A76_1&gt; .
+
+&lt;http://pma.us/type/A76_1&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/type/389_1&gt; a crm:E56_Language .
+
+&lt;https://pma.us/conceptual_object/A16_1&gt; a crm:E56_Language ;
+    crm:P2_has_type &lt;https://pma.us/type/A16_2&gt; .
+
+&lt;https://pma.us/type/A16_2&gt; a crm:E55_Type .
+
+
+
+</code></pre>
+<h3 id="-textual-work-substance-json-ld">- Textual Work Substance <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;classified_as&quot;: [
+        &quot;https://pma.us/type/A16_2&quot;
+      ],
+      &quot;id&quot;: &quot;https://pma.us/conceptual_object/A16_1&quot;,
+      &quot;type&quot;: &quot;Language&quot;
+    },
+    {
+      &quot;content&quot;: &quot;linguistic_object_content&quot;,
+      &quot;crm:P106_is_composed_of&quot;: {
+        &quot;id&quot;: &quot;http://pma.us/conceptual_object/A75_1&quot;
+      },
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;language&quot;: [
+        &quot;https://pma.us/conceptual_object/A16_1&quot;,
+        &quot;https://linked.art/example/type/389_1&quot;
+      ],
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/type/A16_2&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://pma.us/type/A76_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://pma.us/type/A76_1&quot;
+      ],
+      &quot;content&quot;: &quot;partial_content&quot;,
+      &quot;id&quot;: &quot;http://pma.us/conceptual_object/A75_1&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/type/389_1&quot;,
+      &quot;type&quot;: &quot;Language&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-actor-relations">Textual Work <strong>Actor Relations</strong></h2>
+<p>The connection between a <em>Textual Work</em> and actors provides another important set of descriptors for identifying and tracing the <em>Textual Work</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LAF.317</td>
+<td>Index Term--Uncontrolled</td>
+<td>This field is used to link the documented <em>Textual Work</em> with an instance of person or group that is its present owner.</td>
+<td>Reference Model [Person/Group]</td>
+<td>-&gt;P52-&gt;E39[317_1]</td>
+</tr>
+<tr>
+<td>PMAF.25</td>
+<td>Acquisition Note</td>
+<td>This field is used to record a statement about a transfer of custody of the documented <em>Textual Work</em>.</td>
+<td>String</td>
+<td>-&gt;p128i-&gt;E22[A25_1]-&gt;p30i-&gt;E10[A25_2]-&gt;P67i-&gt;E33[A25_3]-&gt;p190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>PMAF.24</td>
+<td>Contributors</td>
+<td>This field is used to record the specific part of activity a documented actor played role in.</td>
+<td>Concept</td>
+<td>-&gt;P16i-&gt;E7[A24_1]-&gt;P9-&gt;E65[A24_2]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-actor-relations-ontology-graph">- Textual Work Actor Relations <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/at_text.png" /></p>
+<h3 id="-textual-work-actor-relations-rdf">- Textual Work Actor Relations <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P128i_is_carried_by &lt;https://pma.us/physical_object/A25_1&gt; ;
+    crm:P16i_was_used_for &lt;https://pma.us/event/A24_1&gt; ;
+    crm:P52_has_current_owner &lt;https://linked.art/example/actor/317_1&gt; .
+
+&lt;https://linked.art/example/actor/317_1&gt; a crm:E39_Actor .
+
+&lt;https://pma.us/conceptual_object/A25_3&gt; a crm:E33_Linguistic_Object .
+
+&lt;https://pma.us/event/A24_1&gt; a crm:E7_Activity ;
+    crm:P9_consists_of &lt;https://pma.us/event/A24_2&gt; .
+
+&lt;https://pma.us/event/A24_2&gt; a crm:E65_Creation .
+
+&lt;https://pma.us/event/A25_2&gt; a crm:E10_Transfer_of_Custody ;
+    crm:P67i_is_referred_to_by &lt;https://pma.us/conceptual_object/A25_3&gt; .
+
+&lt;https://pma.us/physical_object/A25_1&gt; a crm:E22_Human-Made_Object ;
+    crm:P30i_custody_transferred_through &lt;https://pma.us/event/A25_2&gt; .
+
+
+
+</code></pre>
+<h3 id="-textual-work-actor-relations-json-ld">- Textual Work Actor Relations <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;carried_by&quot;: [
+        &quot;https://pma.us/physical_object/A25_1&quot;
+      ],
+      &quot;current_owner&quot;: [
+        &quot;https://linked.art/example/actor/317_1&quot;
+      ],
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;,
+      &quot;used_for&quot;: [
+        &quot;https://pma.us/event/A24_1&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/event/A24_2&quot;,
+      &quot;type&quot;: &quot;Creation&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/conceptual_object/A25_3&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;custody_transferred_through&quot;: [
+        &quot;https://pma.us/event/A25_2&quot;
+      ],
+      &quot;id&quot;: &quot;https://pma.us/physical_object/A25_1&quot;,
+      &quot;type&quot;: &quot;HumanMadeObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/actor/317_1&quot;,
+      &quot;type&quot;: &quot;Actor&quot;
+    },
+    {
+      &quot;crm:P9_consists_of&quot;: {
+        &quot;id&quot;: &quot;https://pma.us/event/A24_2&quot;
+      },
+      &quot;id&quot;: &quot;https://pma.us/event/A24_1&quot;,
+      &quot;type&quot;: &quot;Activity&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/event/A25_2&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://pma.us/conceptual_object/A25_3&quot;
+      ],
+      &quot;type&quot;: &quot;TransferOfCustody&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-aboutness">Textual Work <strong>Aboutness</strong></h2>
+<p>The use of the <em>Textual Work</em> to the researcher lies in its role as an information carrier which bears a certain information object which can be consulted in order to get evidence with regards to some phenomena in the past or present. Thus the representative aspect of the bibliographic item is of prime documentary concern. In this category there is a categorization of the pertinence of the information object with regards to major real world referents: time, space and topic.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PMAF.21</td>
+<td>Subject Person</td>
+<td>This field is used to record the person the content of the documented <em>Textual Work</em> is about.</td>
+<td>Reference Model [Person]</td>
+<td>-&gt;P129-&gt;E21[A21_1]</td>
+</tr>
+<tr>
+<td>PMAF.22</td>
+<td>Subject Corporate Name</td>
+<td>This field is used to record the group of people the content of the documented <em>Textual Work</em> is about.</td>
+<td>Reference Model  [Group]</td>
+<td>-&gt;P129-&gt;E74[A22_1]</td>
+</tr>
+<tr>
+<td>PMAF.57</td>
+<td>Subject Corporate Name: Resource Type</td>
+<td>This field is used to document a type of a group mentioned in the content of the documented <em>Textual Work</em> .</td>
+<td>Concept</td>
+<td>-&gt;p129-&gt;E74[A22_1]-&gt;p2-&gt;E55[A57_1]</td>
+</tr>
+<tr>
+<td>PMAF.58</td>
+<td>Subject Corporate Name: Geographic Location</td>
+<td>This field is used to document location of group mentioned in the content of the documented <em>Textual Work</em>.</td>
+<td>Reference Model [Place]</td>
+<td>-&gt;p129-&gt;E74[A22_1]-&gt;p74-&gt;E53[A58_1]</td>
+</tr>
+<tr>
+<td>PMAF.46</td>
+<td>Subject Event</td>
+<td>This field is used to link the documented <em>Textual Work</em> to an event described in the content of that entity.</td>
+<td>Reference Model [Event]</td>
+<td>-&gt;p129-&gt;E5[A46_1]</td>
+</tr>
+<tr>
+<td>PMAF.47</td>
+<td>Subject Event: Location</td>
+<td>This field is used to link the documented <em>Textual Work</em> to the location of an event described in the content of that entity.</td>
+<td>Reference Model [Place]</td>
+<td>-&gt;p129-&gt;E5[A46_1]-&gt;p7-&gt;E53[A47_1]</td>
+</tr>
+<tr>
+<td>PMAF.48</td>
+<td>Subject Event: Date</td>
+<td>This field is used to document the timespan of an event described in the content of the documented <em>Textual Work</em>.</td>
+<td>Date</td>
+<td>-&gt;p129-&gt;E5[A46_1]-&gt;p4-&gt;E52[A48_1]</td>
+</tr>
+<tr>
+<td>PMAF.49</td>
+<td>Subject Event: Focus</td>
+<td>This field is used to document the type of an event described in the content of the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p129-&gt;E5[A46_1]-&gt;p2-&gt;E55[A49_1]</td>
+</tr>
+<tr>
+<td>PMAF.50</td>
+<td>Subject Topical</td>
+<td>This field is used to document a subject  that the content of the documented <em>Textual Work</em> is about.</td>
+<td>Concept</td>
+<td>-&gt;p129-&gt;E55[A50_1]</td>
+</tr>
+<tr>
+<td>PMAF.51</td>
+<td>Subject Topical: Resource Focus</td>
+<td>This field is used to document the type of subject  that the content of the documented <em>Textual Work</em> is about.</td>
+<td>Concept</td>
+<td>-&gt;p129-&gt;E55[A50_1]-&gt;p67i-&gt;E33[A51_1]</td>
+</tr>
+<tr>
+<td>PMAF.52</td>
+<td>Subject: Topical: Time Period</td>
+<td>This field is used to document the timespan of a subject  that the content of the documented <em>Textual Work</em> is about.</td>
+<td>Collection</td>
+<td>-&gt;p129-&gt;E55[A50_1]-&gt;p129-&gt;E52[A52_1]</td>
+</tr>
+<tr>
+<td>PMAF.53</td>
+<td>Subject: Topical Geographic Location</td>
+<td>This field is used to link the documented <em>Textual Work</em> to the location of a subject that the content of the documented <em>Textual Work</em> is about.</td>
+<td>Reference Model [Place]</td>
+<td>-&gt;p129-&gt;E55[A50_1]-&gt;p129-&gt;E53[A53_1]</td>
+</tr>
+<tr>
+<td>PMAF.19</td>
+<td>Subject Geographic</td>
+<td>This field is used to record the place the content of the documented <em>Textual Work</em> is about.</td>
+<td>Reference Model [Place]</td>
+<td>-&gt;P129-&gt;E53[A19_1]</td>
+</tr>
+<tr>
+<td>PMAF.56</td>
+<td>Subject Geographic: Resource Type</td>
+<td>This field is used to document a type of place mentioned in the content of the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p129-&gt;E53[A19_1]-&gt;p2-&gt;E55[A56_1]</td>
+</tr>
+<tr>
+<td>PMAF.54</td>
+<td>Subject Geographic: Focus</td>
+<td>This field is used to document a statement about the subject  that the content of the documented <em>Textual Work</em> is about.</td>
+<td>String</td>
+<td>-&gt;P129-&gt;E53[A19_1]-&gt;p2-&gt;E55[A54_1]</td>
+</tr>
+<tr>
+<td>LAF.392</td>
+<td>Local Subject</td>
+<td>This field is used to link the documented <em>Textual Work</em> to the subject it is about.</td>
+<td>Concept</td>
+<td>-&gt;P129-&gt;E55[392_1]</td>
+</tr>
+<tr>
+<td>PMAF.55</td>
+<td>Subject Geographic: Time Period</td>
+<td>This field is used to document a statement about a period  that the content of the documented <em>Textual Work</em> is about.</td>
+<td>Reference Model  [Period]</td>
+<td>-&gt;P129-&gt;E4[A55_1]</td>
+</tr>
+<tr>
+<td>PMAF.67</td>
+<td>Reference to Object</td>
+<td>This field is used to document an artwork mentioned in the content of the documented <em>Textual Work</em>.</td>
+<td>Reference Model  [Artwork]</td>
+<td>-&gt;p129-&gt;E22[A67_1]</td>
+</tr>
+<tr>
+<td>PMAF.66</td>
+<td>Reference to Exhibition</td>
+<td>This field is used to document an activity mentioned in the content of the documented <em>Textual Work</em>.</td>
+<td>Reference Model [Exhibition]</td>
+<td>-&gt;p129-&gt;E7[A66_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-aboutness-ontology-graph">- Textual Work Aboutness <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/ab_text.png" /></p>
+<h3 id="-textual-work-aboutness-rdf">- Textual Work Aboutness <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P129_is_about &lt;http://linked.art/example/actor/A22_1&gt;,
+        &lt;http://linked.art/example/event/A46_1&gt;,
+        &lt;http://linked.art/example/event/A66_1&gt;,
+        &lt;http://linked.art/example/period/A55_1&gt;,
+        &lt;http://linked.art/example/physical_object/A67_1&gt;,
+        &lt;http://linked.art/example/place/A19_1&gt;,
+        &lt;http://linked.art/example/type/A50_1&gt;,
+        &lt;http://linked.art/example/type/A56_1&gt;,
+        &lt;https://linked.art/example/actor/A21_1&gt;,
+        &lt;https://linked.art/example/actor/A22_1&gt;,
+        &lt;https://linked.art/example/place/A19_1&gt;,
+        &lt;https://linked.art/example/type/392_1&gt; .
+
+&lt;http://linked.art/example/actor/A22_1&gt; a crm:E74_Group ;
+    crm:P2_has_type &lt;http://linked.art/example/type/A57_1&gt; ;
+    crm:P74_has_current_or_former_residence &lt;http://linked.art/example/place/A58_1&gt; .
+
+&lt;http://linked.art/example/event/A46_1&gt; a crm:E5_Event ;
+    crm:P2_has_type &lt;http://linked.art/example/type/A49_1&gt; ;
+    crm:P4_has_time-span &lt;http://linked.art/example/time_span/A48_1&gt; ;
+    crm:P7_took_plase_at &lt;http://linked.art/example/place/A47_1&gt; .
+
+&lt;http://linked.art/example/event/A66_1&gt; a crm:E7_Activity .
+
+&lt;http://linked.art/example/period/A55_1&gt; a crm:E4_Period .
+
+&lt;http://linked.art/example/physical_object/A67_1&gt; a crm:E22_Human-made_Object .
+
+&lt;http://linked.art/example/place/A19_1&gt; a crm:E53_Place ;
+    crm:P2_has_type &lt;http://linked.art/example/type/A54_1&gt; .
+
+&lt;http://linked.art/example/place/A47_1&gt; a crm:E53_Place .
+
+&lt;http://linked.art/example/place/A53_1&gt; a crm:E53_Place .
+
+&lt;http://linked.art/example/place/A58_1&gt; a crm:E53_Place .
+
+&lt;http://linked.art/example/time_span/A48_1&gt; a crm:E52_Time-span .
+
+&lt;http://linked.art/example/time_span/A52_1&gt; a crm:E52_Time-span .
+
+&lt;http://linked.art/example/type/A49_1&gt; a crm:E55_Type .
+
+&lt;http://linked.art/example/type/A50_1&gt; a crm:E55_Type ;
+    crm:P2_has_type &lt;http://linked.art/example/type/A51_1&gt; ;
+    crm:P67_refers_to &lt;http://linked.art/example/place/A53_1&gt; ;
+    crm:p67_refers_to &lt;http://linked.art/example/time_span/A52_1&gt; .
+
+&lt;http://linked.art/example/type/A51_1&gt; a crm:E55_Type .
+
+&lt;http://linked.art/example/type/A54_1&gt; a crm:E55_Type .
+
+&lt;http://linked.art/example/type/A56_1&gt; a crm:E55_Type .
+
+&lt;http://linked.art/example/type/A57_1&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/actor/A21_1&gt; a crm:E21_Person .
+
+&lt;https://linked.art/example/actor/A22_1&gt; a crm:E74_Group .
+
+&lt;https://linked.art/example/place/A19_1&gt; a crm:E53_Place .
+
+&lt;https://linked.art/example/type/392_1&gt; a crm:E55_Type .
+
+
+
+</code></pre>
+<h3 id="-textual-work-aboutness-json-ld">- Textual Work Aboutness <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://linked.art/example/type/A51_1&quot;
+      ],
+      &quot;crm:p67_refers_to&quot;: {
+        &quot;id&quot;: &quot;http://linked.art/example/time_span/A52_1&quot;
+      },
+      &quot;id&quot;: &quot;http://linked.art/example/type/A50_1&quot;,
+      &quot;refers_to&quot;: [
+        &quot;http://linked.art/example/place/A53_1&quot;
+      ],
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/period/A55_1&quot;,
+      &quot;type&quot;: &quot;Period&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/physical_object/A67_1&quot;,
+      &quot;type&quot;: &quot;crm:E22_Human-made_Object&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/actor/A22_1&quot;,
+      &quot;type&quot;: &quot;Group&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/type/392_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/type/A56_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/actor/A21_1&quot;,
+      &quot;type&quot;: &quot;Person&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/time_span/A52_1&quot;,
+      &quot;type&quot;: &quot;crm:E52_Time-span&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://linked.art/example/type/A49_1&quot;
+      ],
+      &quot;crm:P7_took_plase_at&quot;: {
+        &quot;id&quot;: &quot;http://linked.art/example/place/A47_1&quot;
+      },
+      &quot;id&quot;: &quot;http://linked.art/example/event/A46_1&quot;,
+      &quot;timespan&quot;: &quot;http://linked.art/example/time_span/A48_1&quot;,
+      &quot;type&quot;: &quot;Event&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/type/A49_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/place/A47_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/place/A58_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/place/A53_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://linked.art/example/type/A54_1&quot;
+      ],
+      &quot;id&quot;: &quot;http://linked.art/example/place/A19_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;about&quot;: [
+        &quot;http://linked.art/example/event/A46_1&quot;,
+        &quot;https://linked.art/example/actor/A22_1&quot;,
+        &quot;http://linked.art/example/place/A19_1&quot;,
+        &quot;https://linked.art/example/type/392_1&quot;,
+        &quot;http://linked.art/example/physical_object/A67_1&quot;,
+        &quot;https://linked.art/example/actor/A21_1&quot;,
+        &quot;http://linked.art/example/type/A50_1&quot;,
+        &quot;http://linked.art/example/event/A66_1&quot;,
+        &quot;http://linked.art/example/type/A56_1&quot;,
+        &quot;http://linked.art/example/actor/A22_1&quot;,
+        &quot;https://linked.art/example/place/A19_1&quot;,
+        &quot;http://linked.art/example/period/A55_1&quot;
+      ],
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/type/A57_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/place/A19_1&quot;,
+      &quot;type&quot;: &quot;Place&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/type/A51_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/type/A54_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/event/A66_1&quot;,
+      &quot;type&quot;: &quot;Activity&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://linked.art/example/time_span/A48_1&quot;,
+      &quot;type&quot;: &quot;crm:E52_Time-span&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://linked.art/example/type/A57_1&quot;
+      ],
+      &quot;id&quot;: &quot;http://linked.art/example/actor/A22_1&quot;,
+      &quot;residence&quot;: [
+        &quot;http://linked.art/example/place/A58_1&quot;
+      ],
+      &quot;type&quot;: &quot;Group&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-parthood">Textual Work <strong>Parthood</strong></h2>
+<p>With regards to parthood a <em>Textual Work</em> should also indicate if it belongs to a greater <em>Textual Work</em> in order to enable the tracing of the relevant volumes and professionals.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LAF.394</td>
+<td>Parent Work</td>
+<td>This field is used to link the documented linguistic object to another instance of linguistic object of which it is a part.</td>
+<td>Reference Model  [Textual Work]</td>
+<td>-&gt;P106i-&gt;E33[394_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-parthood-ontology-graph">- Textual Work Parthood <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/part_text.png" /></p>
+<h3 id="-textual-work-parthood-rdf">- Textual Work Parthood <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P106i_forms_part_of &lt;https://linked.art/example/conceptual_object/394_1&gt; .
+
+&lt;https://linked.art/example/conceptual_object/394_1&gt; a crm:E33_Linguistic_Object .
+
+
+
+</code></pre>
+<h3 id="-textual-work-parthood-json-ld">- Textual Work Parthood <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;crm:P106i_forms_part_of&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/394_1&quot;
+      },
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/394_1&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    }
+  ]
+}
+
+</code></pre>
+<h2 id="textual-work-description">Textual Work <strong>Description</strong></h2>
+<p><em>Textual Works</em> are the subjects of innumerable descriptions that provide a wide range of information with regards to the historical importance of the work. The descriptors necessary to this task are documented in the table below.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LAF.15</td>
+<td>Statement</td>
+<td>This field is used to record the actual textual content of the statement describing the documented <em>Textual Work</em>.</td>
+<td>String</td>
+<td>-&gt;p67i-&gt;E33[13_1]-&gt;p190-&gt;rdf:literal</td>
+</tr>
+<tr>
+<td>LAF.14</td>
+<td>Statement Type</td>
+<td>This field is used to record the formal type of the statement made about the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;p67i-&gt;E33[13_1]-&gt;p2-&gt;E55[14_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-description-ontology-graph">- Textual Work Description <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/desc_text.png" /></p>
+<h3 id="-textual-work-description-rdf">- Textual Work Description <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P67i_is_referred_to_by &lt;https://linked.art/example/conceptual_object/13_1&gt; .
+
+&lt;http://vocab.getty.edu/aat/300418049&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/conceptual_object/13_1&gt; a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content &quot;Statement_string_content&quot; ;
+    crm:P2_has_type &lt;https://linked.art/example/type/14_1&gt; .
+
+&lt;https://linked.art/example/type/14_1&gt; a crm:E55_Type ;
+    crm:P2_has_type &lt;http://vocab.getty.edu/aat/300418049&gt; .
+
+
+
+
+</code></pre>
+<h3 id="-textual-work-description-json-ld">- Textual Work Description <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;classified_as&quot;: [
+        &quot;https://linked.art/example/type/14_1&quot;
+      ],
+      &quot;content&quot;: &quot;Statement_string_content&quot;,
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/13_1&quot;,
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://linked.art/example/conceptual_object/13_1&quot;
+      ],
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;id&quot;: &quot;http://vocab.getty.edu/aat/300418049&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;classified_as&quot;: [
+        &quot;http://vocab.getty.edu/aat/300418049&quot;
+      ],
+      &quot;id&quot;: &quot;https://linked.art/example/type/14_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    }
+  ]
+}
+
+
+</code></pre>
+<h2 id="textual-work-documentation">Textual Work <strong>Documentation</strong></h2>
+<p>This information category unites referential information about the documented <em>Textual Work</em>, providing contextual data about it.</p>
+<table>
+<thead>
+<tr>
+<th>Filed ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Data Type</th>
+<th>CRM Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PMAF.23</td>
+<td>Weblink</td>
+<td>This field is used to indicate the URL of an electronic source for the documented <em>Textual Work</em>.</td>
+<td>URL</td>
+<td>-&gt;P67i-&gt;D1[A23_1]</td>
+</tr>
+<tr>
+<td>PMAF.83</td>
+<td>Digital Object</td>
+<td>This field is used to link to an instance of digital resource which serves as a digital reference document for the documented <em>Textual Work</em>.</td>
+<td>Reference Model [Digital Object]</td>
+<td>-&gt;P02i-&gt;PC67[A83_1]-&gt;P01-&gt;D1[A83_2]</td>
+</tr>
+<tr>
+<td>PMAF.84</td>
+<td>Digital Object Type</td>
+<td>This field is used to link to a type record which indicates the kind of reference supported by the digital resource that serves as a reference for the documented <em>Textual Work</em>.</td>
+<td>Concept</td>
+<td>-&gt;P02i-&gt;PC67[A83_1]-&gt;P67.1-&gt;E55[A84_1]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-textual-work-documentation-ontology-graph">- Textual Work Documentation <strong>Ontology Graph</strong></h3>
+<p><img alt="Screenshot" src="../img/doc_text.png" /></p>
+<h3 id="-textual-work-documentation-rdf">- Textual Work Documentation <strong>RDF</strong></h3>
+<pre><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+
+&lt;https://pma.us/models/textual_work/E33&gt; a crm:E33_Linguistic_Object ;
+    crm:P02i_is_range_of &lt;https://linked.art/example/reified_property/A83_1&gt; ;
+    crm:P67i_is_referred_to_by &lt;https://pma.us/conceptual_object/A23_1&gt; .
+
+&lt;https://linked.art/example/conceptual_object/A83_2&gt; a crm:D1_Digital_Object .
+
+&lt;https://linked.art/example/conceptual_object/A84_1&gt; a crm:E55_Type .
+
+&lt;https://linked.art/example/reified_property/A83_1&gt; a crm:PC67_refers_to ;
+    crm:P01_has_domain &lt;https://linked.art/example/conceptual_object/A83_2&gt; ;
+    crm:P67.1_has_type &lt;https://linked.art/example/conceptual_object/A84_1&gt; .
+
+&lt;https://pma.us/conceptual_object/A23_1&gt; a crm:D1_Digital_Object .
+
+
+
+</code></pre>
+<h3 id="-textual-work-documentation-json-ld">- Textual Work Documentation <strong>JSON-LD</strong></h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://linked.art/ns/v1/linked-art.json&quot;,
+  &quot;@graph&quot;: [
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/A84_1&quot;,
+      &quot;type&quot;: &quot;Type&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/A83_2&quot;,
+      &quot;type&quot;: &quot;crm:D1_Digital_Object&quot;
+    },
+    {
+      &quot;crm:P02i_is_range_of&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/reified_property/A83_1&quot;
+      },
+      &quot;id&quot;: &quot;https://pma.us/models/textual_work/E33&quot;,
+      &quot;referred_to_by&quot;: [
+        &quot;https://pma.us/conceptual_object/A23_1&quot;
+      ],
+      &quot;type&quot;: &quot;LinguisticObject&quot;
+    },
+    {
+      &quot;crm:P01_has_domain&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/A83_2&quot;
+      },
+      &quot;crm:P67.1_has_type&quot;: {
+        &quot;id&quot;: &quot;https://linked.art/example/conceptual_object/A84_1&quot;
+      },
+      &quot;id&quot;: &quot;https://linked.art/example/reified_property/A83_1&quot;,
+      &quot;type&quot;: &quot;crm:PC67_refers_to&quot;
+    },
+    {
+      &quot;id&quot;: &quot;https://pma.us/conceptual_object/A23_1&quot;,
+      &quot;type&quot;: &quot;crm:D1_Digital_Object&quot;
+    }
+  ]
+}
+
+</code></pre>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../archivalresource/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../archivalresource/" class="btn btn-xs btn-link">
+        Archival Resource
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../artwork/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../artwork/" class="btn btn-xs btn-link">
+        Artwork
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
